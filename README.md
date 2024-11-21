@@ -1,7 +1,15 @@
-# Coffee Connect
-===================================
+# [Coffee Connect](https://terryyyy.github.io/Coffee-Connect/)
+-----------
 
 Welcome to the **Coffee Connect**. This is a visually captivating and functional web page tailored for coffee enthusiasts. It combines a modern landing page design with a user-friendly login form, making it ideal for coffee shops, online cafes, or subscription services.
+
+## 📸 Screenshot
+-------------
+
+Here’s a preview of the user interface:
+
+<img width="955" alt="End Result" src="https://github.com/user-attachments/assets/a14a7c2c-f21e-48bc-8fd8-91ca042baa08">
+
 
 ## 🌟 Features
 -----------
@@ -23,20 +31,12 @@ Welcome to the **Coffee Connect**. This is a visually captivating and functional
 *   **CSS**: For styling and visual appeal.
     
 *   **JavaScript**: For interactive elements and login form validation.
-    
-
-## 📸 Screenshot
--------------
-
-Here’s a preview of the user interface:
-
-<img width="955" alt="End Result" src="https://github.com/user-attachments/assets/a14a7c2c-f21e-48bc-8fd8-91ca042baa08">
 
 
 ## 🚀 How to Run the Project
 -------------------------
 
-1.  git clone https://github.com/TERRYYYY/Coffee-Connect.giT
+1.  git clone https://github.com/TERRYYYY/Coffee-Connect.git
     
 2.  cd coffee-landing-page
     
