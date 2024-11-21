@@ -58,6 +58,7 @@
     background: url(images/cup-coffee.jpg) no-repeat;
     background-size: cover;
     background-position: center;
+    justify-content: space-between;
     display: flex;
     align-items: center;
     padding: 80px 100px 0;
@@ -80,6 +81,7 @@
 
 .content a{
     color: #fff;
+    background: #1e0b04;
     text-decoration: none;
     border: 2px solid #fff;
     font-size: 500;
@@ -89,5 +91,126 @@
 }
 
 .content a:hover{
-    background: #1e0b04;
+    background: #fff;
+    color: #1e0b04;
 }
+
+
+/* Login form styling  */
+
+.wrapper_login{
+    position: relative;
+    width: 440px;
+}
+
+.wrapper_login h2{
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+}
+
+.wrapper_login .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 40px 0;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 40px;
+    outline: none;
+    font-size: 1em;
+    color: #fff;
+    padding: 0 25px 0 45px;
+}
+
+.input-box label{
+    position: absolute;
+    font-size: 1em;
+    top: 50%;
+    left: 45px;
+    transform: translateY(-50%);
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.input-box input:valid ~ label{
+    font-size: .8em;
+    top: -14px;
+    left: 17px;
+}
+
+.input-box input:focus ~ label{
+    font-size: .8em;
+    top: -14px;
+    left: 17px;
+}
+
+.input-box .icon{
+    position: absolute;
+    top: 14px;
+    left: 15px;
+    right: 20px;
+    font-size: 1.2em;
+    color: #fff;
+}
+
+.wrapper_login .remember-forgot{
+    font-size: .9em;
+    color: #fff;
+    font-weight: 500;
+    margin: -25px 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.remember-forgot a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+
+.remember-forgot label input{
+    accent-color: #1e0b04;
+    margin-right: 3px;
+}
+
+.wrapper_login .btn{
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(90deg, #1e0b04, #71412a);
+    border: none;
+    outline: none;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, .5);
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #fff;
+    font-weight: 500;
+}
+
+.wrapper_login .register-link{
+    font-size: .9em;
+    color: #fff;
+    text-align: center;
+    margin: 30px 0 10px;
+}
+
+.register-link p a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-link p a:hover{    
+    text-decoration: underline;
+}
+/* End of login form styling */
